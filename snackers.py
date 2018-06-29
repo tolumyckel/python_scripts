@@ -85,7 +85,7 @@ def question_three(snackers,store):
         total_price += item_total
     print("*Sum Total Price for all snack*")
     print(total_price)
-    print("*******")
+    print("********")
     print("I Love Both of Them!")
 
 if __name__ == '__main__':
