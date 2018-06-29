@@ -12,22 +12,6 @@ result2 = json.loads(response2.content.decode("utf-8"))
 
 snack_list = []
 
-#for res1 in result1:
-    
- #   for i in range(len(result2["products"])):
-        
-  #      if(res1["fave_snack"] == result2["products"][i]["title"]):
-   #         print(res1["email"]+ " " + result2["products"][i]["title"] + " "+ result2["products"][i]["variants"][0]["price"])
-            #if(result2["products"][i]["title"] in snack_list):
-             #   total += result2["products"][i]["variants"][0]["price"]
-              #  continue
-            #else:
-    #        snack_list.append(result2["products"][i]["title"])
-            #print(res1["email"]+ " " + result2["products"][i]["title"] + " "+ result2["products"][i]["variants"][0]["price"])
-#print(snack_list)
-#snacks = {j:snack_list.count(j) for j in snack_list}
-
-#print(snacks)
 
 def question_one(snackers,store):
     print("******")
